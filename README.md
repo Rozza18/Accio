@@ -23,18 +23,19 @@ A magical Python-based book recommendation system that helps you discover your n
 
 ```bash
 python script.py
+```
 
-Usage Examples
-Search for "sci fiction" to see science fiction books
+### Usage Examples
+- ** Search for "sci fiction" to see science fiction books
 
-Enter "dune" to find books with that title
+- ** Enter "dune" to find books with that title
 
-Use "random" to get surprise recommendations
+- ** Use "random" to get surprise recommendations
 
-Type "help" for guidance
+- ** Type "help" for guidance
 
 
-🏗️ Project Structure
+## 🏗️ Project Structure
 
 accio-books/
 ├── script.py              # Main program interface
@@ -43,41 +44,41 @@ accio-books/
 └── README.md            # This file
 
 
-🧠 Technical Highlights
-Data Structures Used
-Hash Tables: defaultdict for O(1) genre lookups
+## 🧠 Technical Highlights
+### Data Structures Used
+- Hash Tables: defaultdict for O(1) genre lookups
 
-Indexing: Dual indexes for genres and titles
+- Indexing: Dual indexes for genres and titles
 
-Counters: Track genre popularity efficiently
+- Counters: Track genre popularity efficiently
 
 
-Algorithms Implemented
-Search Algorithms: Multi-strategy search (genre + title)
+### Algorithms Implemented
+- Search Algorithms: Multi-strategy search (genre + title)
 
-Sorting: Genre popularity ranking
+- Sorting: Genre popularity ranking
 
-Random Sampling: Fair book selection
+- Random Sampling: Fair book selection
 
-Key Functions
-BookRecommender.search_books() - Comprehensive search
+### Key Functions
+- BookRecommender.search_books() - Comprehensive search
 
-build_genre_index() - Fast genre-based lookup
+- build_genre_index() - Fast genre-based lookup
 
-get_popular_genres() - Genre analytics
+- get_popular_genres() - Genre analytics
 
-get_random_sample_recommendations() - Discovery engine
+- get_random_sample_recommendations() - Discovery engine
 
-📊 Dataset
-The system uses a comprehensive dataset with:
+## 📊 Dataset
+### The system uses a comprehensive dataset with:
 
-1000+ books across multiple genres
+- 1000+ books across multiple genres
 
-Sci Fiction, Horror, Adventure, Historical Fiction, and more
+- Sci Fiction, Horror, Adventure, Historical Fiction, and more
 
-Complete metadata including Goodreads URLs
+- Complete metadata including Goodreads URLs
 
-🎯 Use Cases
+## 🎯 Use Cases
 Readers: Discover new books based on preferences
 
 Book Clubs: Find discussion-worthy titles
@@ -86,25 +87,25 @@ Libraries: Assist patrons with recommendations
 
 Students: Learn about data structures in practice
 
-🔧 Customization
-Adding New Books
-Edit books.csv with format:
+## 🔧 Customization
+### Adding New Books
+- Edit books.csv with format:
 
 Genre,Name,URL
 New Genre,Book Title,https://example.com
 
-Extending Functionality
-The modular design makes it easy to add:
+- Extending Functionality
+### The modular design makes it easy to add:
 
-Author-based recommendations
+- Author-based recommendations
 
-Rating-based sorting
+- Rating-based sorting
 
-Personal reading history
+- Personal reading history
 
-Export capabilities
+- Export capabilities
 
-📈 Performance
+## 📈 Performance
 Search Speed: O(1) for indexed genres, O(n) for comprehensive search
 
 Memory Usage: Efficient indexing minimizes redundancy
@@ -112,7 +113,7 @@ Memory Usage: Efficient indexing minimizes redundancy
 Scalability: Handles 1000+ books with instant response
 
 
-🤝 Contributing
+## 🤝 Contributing
 Feel free to fork and enhance:
 
 Add new recommendation algorithms
@@ -123,11 +124,11 @@ Expand the book database
 
 Add unit tests
 
-📝 License
+## 📝 License
 Open source - feel free to use for learning and projects!
 
 
-🎓 Learning Outcomes
+## 🎓 Learning Outcomes
 This project demonstrates:
 
 Practical use of data structures
